@@ -7,7 +7,7 @@ insert the elements), and conversion will happen when the button is pressed.
 
 <b>Test data (pasted to `textarea`, including spaces):</b>
 
-underscore_case
+underscore_case /n
  first_name
 Some_Variable
  calculate_AGE
