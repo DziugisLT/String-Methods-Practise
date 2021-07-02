@@ -5,18 +5,18 @@ and convert them to camelCase.
 The input will come from a `textarea` inserted into the DOM (see code below to
 insert the elements), and conversion will happen when the button is pressed.
 
-<b>Test data (pasted to `textarea`, including spaces):</b>
+**Test data (pasted to `textarea`, including spaces):**
 
-underscore_case /n
- first_name
-Some_Variable
- calculate_AGE
-delayed_departure
+underscore_case<br/>
+&nbsp;first_name<br/>
+Some_Variable<br/>
+&nbsp;calculate_AGE<br/>
+delayed_departure<br/>
 
 <b>Should produce this output (5 separate `console.log` outputs):</b>
 
-underscoreCase     ✅
-firstName          ✅✅
-someVariable       ✅✅✅
-calculateAge       ✅✅✅✅
-delayedDeparture   ✅✅✅✅✅
+underscoreCase&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅<br/>
+firstName&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅✅<br/>
+someVariable&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅✅✅<br/>
+calculateAge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅✅✅✅<br/>
+delayedDeparture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅✅✅✅✅<br/>
